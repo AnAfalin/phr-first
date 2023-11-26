@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'open-sans';
+  src: url('../fonts/open-sans.woff') format('woff'), url('../fonts/open-sans.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'roboto';
+  src: url('../fonts/roboto-300.woff') format('woff'), url('../fonts/roboto-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'GothamPro';
+  src: url('../fonts/GothamPro.eot');
+  src: url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamPro.woff') format('woff'), url('../fonts/GothamPro.ttf') format('truetype');
+}
+
+
+* {
+   font-family: 'roboto' !important;
+}
+#site-navbar {
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+#site-navbar.uk-sticky-below {
+    background: #fff;
+    color: #333;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0px 0px 8px #666;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+#site-navbar a.site-topmenu {
+    font-size: 1.2em !important;
+}
+#site-navbar a.site-topmenu:hover {
+    color: #fff !important;
+}
+#site-navbar.uk-sticky-below a.site-topmenu:hover  {
+    color: #000 !important;
+}
+
+#site-about-wrap {
+    display: flex;
+    flex-direction: column;
+}
+#site-about-1 {
+    flex: 1;
+}
+#site-about-2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+#site-about-txt {
+    margin-top: 40px;
+}
+#site-about-txt  h1 {
+    color: #fff;
+}
+#site-about-txt  p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.8em;
+    margin-top: 32px;
+    text-shadow: 1px 1px 1px #333;
+}
+@media screen and (max-width:500px){
+    #site-about-txt  { margin-top: 32px;}
+    #site-about-txt  p { margin-top: 40px; font-size: 16px; line-height: 1.4em;}
+}
+.site-prod {
+    background: #f1f1f1;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.site-prod:hover {
+    background: #dadaff !important;
+    color: #333 !important;
+}
+.site-partner {
+}
